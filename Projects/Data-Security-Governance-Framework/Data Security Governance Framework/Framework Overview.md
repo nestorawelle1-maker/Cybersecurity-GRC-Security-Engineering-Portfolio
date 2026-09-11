@@ -12,8 +12,6 @@ The project follows this process:
 
 **Discover → Inventory → Classify → Map → Assess → Remediate → Validate → Monitor**
 
----
-
 # 1. Data Discovery
 
 I started by meeting with IT and business owners because I first needed to understand the environment.
