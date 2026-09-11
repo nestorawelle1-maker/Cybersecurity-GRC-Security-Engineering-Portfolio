@@ -51,8 +51,6 @@ I documented:
 
 This inventory became the foundation for the rest of the assessment.
 
----
-
 # 2. Data Classification
 
 After discovering the data, I needed to determine its sensitivity.
@@ -83,8 +81,6 @@ Sensitive information was not consistently classified, meaning employees did not
 I established classification requirements and worked with data owners to classify information based on sensitivity, business impact, privacy requirements, and regulatory obligations.
 
 I then connected each classification level to specific handling requirements.
-
----
 
 # 3. Data Flow Mapping
 
@@ -124,8 +120,6 @@ Some sensitive information was being copied or transferred between systems witho
 I documented the flows and identified the systems, owners, third parties, and controls involved at each stage.
 
 This allowed me to identify where stronger encryption, access restrictions, monitoring, or retention controls were required.
-
----
 
 # 4. Access Control Assessment
 
@@ -172,8 +166,6 @@ Where access was unnecessary:
 * Jira remediation tickets
 * Screenshots/configuration evidence
 
----
-
 # 5. PII Protection Assessment
 
 Because the organization processes sensitive personal information, I specifically assessed how PII was handled.
@@ -214,8 +206,6 @@ Depending on the data classification, controls included:
 * Microsoft Entra ID – identity controls
 * Vanta – compliance/control monitoring
 
----
-
 # 6. Data Retention and Lifecycle Management
 
 I reviewed how long sensitive information was being retained.
@@ -241,8 +231,6 @@ The lifecycle became:
 ### Tool Used
 
 Microsoft Purview – retention and data lifecycle capabilities where applicable.
-
----
 
 # 7. Third-Party Data Risk
 
@@ -286,8 +274,6 @@ For higher-risk vendors, I reviewed evidence such as:
 
 Any gaps were documented, assigned to an owner, remediated or formally accepted, and tracked to closure.
 
----
-
 # 8. SOC 2, OHIP and Hi-Trust Readiness
 
 Another part of the project was ensuring that governance controls could be demonstrated through evidence.
@@ -311,8 +297,6 @@ I should be able to provide:
 **Policy → Access Review → Manager Approval → Access Change → Evidence**
 
 If evidence was missing, I documented the gap and worked with the control owner to remediate it.
-
----
 
 # 9. AI and Advanced Analytics Data Governance
 
@@ -353,8 +337,6 @@ Where possible, I required:
 
 I aligned the governance approach with the organization's broader privacy and security requirements.
 
----
-
 # 10. Data Platforms and Analytics
 
 I also considered how governance applied inside data platforms such as data warehouses, ETL pipelines, and environments such as Databricks.
@@ -375,8 +357,6 @@ At each stage, I reviewed:
 * Data sharing
 
 The purpose was to make sure governance followed the data instead of stopping at the source system.
-
----
 
 # 11. Governance Metrics and Reporting
 
@@ -418,8 +398,6 @@ Examples included:
 * Vanta – compliance metrics
 * Jira – remediation metrics
 
----
-
 # 12. Continuous Monitoring
 
 The project did not end after implementation.
@@ -449,8 +427,6 @@ I established ongoing monitoring through:
 * Vendor reassessment
 * Training
 * Audit evidence
-
----
 
 # 13. Final Outcome
 
