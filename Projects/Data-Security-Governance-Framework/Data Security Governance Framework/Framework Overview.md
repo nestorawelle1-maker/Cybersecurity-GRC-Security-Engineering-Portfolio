@@ -1,3 +1,5 @@
+<img width="2400" height="1400" alt="image" src="https://github.com/user-attachments/assets/610fde26-144b-486b-aea2-46f367d8cb51" />
+
 # Data Security Governance Framework Implementation
 
 ## Project Overview
